@@ -2,7 +2,7 @@ const template = document.querySelector("template");
 const cardList = document.getElementById("card-list");
 
 const showCards = ({ products }) => {
-  products.forEach((product) => {
+  products.reverse().forEach((product) => {
     const {
       id,
       title,
