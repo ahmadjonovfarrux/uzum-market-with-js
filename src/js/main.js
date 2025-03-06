@@ -1,5 +1,6 @@
 import "./dark-mode.js";
 import "./loader.js";
+import "./product.js";
 import { fetchData } from "./fetchData.js";
 import { showCards } from "./updateUI.js";
 
@@ -10,3 +11,5 @@ fetchData("https://dummyjson.com/product")
   .catch((error) => {
     console.log(error);
   });
+
+  
