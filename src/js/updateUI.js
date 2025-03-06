@@ -23,7 +23,7 @@ const showCards = ({ products }) => {
     const reviewText = clone.querySelector(".review");
     const priceText = clone.querySelector(".price");
     const priceWithDiscount = clone.querySelector(".price-with-discount");
-    // const buyBtn = clone.querySelector(".buy-btn");
+    const buyBtn = clone.querySelector(".buy-btn");
 
     a.href = `./product.html?id=${id}`;
     img.src = thumbnail;

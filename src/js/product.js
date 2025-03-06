@@ -3,18 +3,11 @@ import "./dark-mode.js";
 import "./loader.js";
 const template = document.querySelector("template");
 const container = document.querySelector(".hero__container");
-// const card = document.querySelector(".card");
-// const cardTitle = document.querySelector(".card-title");
-// const cardText = document.querySelector(".text");
-// const Prating = document.querySelector(".rating");
-// const Preview = document.querySelector(".review");
-// const img = document.querySelector(".card-img");
-// const priceOfProduct = document.querySelector(".priceOfProduct");
-// const discountPrice = document.querySelector(".discountPrice");
+
 
 const queryString = window.location.search;
 const id = new URLSearchParams(queryString).get("id");
-// const url = "https://dummyjson.com/product/" + id;
+
 
 const showProduct = (product) => {
   const {
