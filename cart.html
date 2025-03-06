@@ -57,9 +57,9 @@
           <!-- head -->
           <thead>
             <tr>
-              <th>Name</th>
-              <th>Job</th>
-              <th>Favorite Color</th>
+              <th>Image/Title.Brand</th>
+              <th>Price</th>
+           
               <th></th>
             </tr>
           </thead>
@@ -84,13 +84,25 @@
                 </div>
               </td>
               <td>
-                Zemlak, Daniel and Leannon
-                <br />
-                <span class="badge badge-ghost badge-sm"
-                  >Desktop Support Technician</span
-                >
+                <div class="flex justify-between">
+                    <div class="flex flex-col gap-1">
+                      <del class="price badge badge-soft badge-secondary"
+                        >$1999</del
+                      >
+                      <h3
+                        class="price-with-discount badge badge-primary font-bold"
+                      >
+                        $1555
+                      </h3>
+                    </div>
               </td>
-              <td>Purple</td>
+              <td>
+                <div class="flex items-center justify-center gap-1">
+                  <button class="btn btn-sm btn-primary btn-outline">+</button>
+                  <span class="text-xl">7</span>
+                  <button class="btn btn-sm btn-primary btn-outline">-</button>
+                </div>
+              </td>
               <th>
                 <button class="btn btn-secondary btn-outline">
                   <i class="fa-solid fa-trash"></i>
